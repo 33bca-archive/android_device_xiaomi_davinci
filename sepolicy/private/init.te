@@ -1,0 +1,2 @@
+# Allow init to mount vendor files
+allow init vendor_file:file mounton;
