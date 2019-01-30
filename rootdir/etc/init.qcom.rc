@@ -5,10 +5,6 @@ on init
     mount none /system/lib/soundfx/libvolumelistener.so /vendor/lib/soundfx/libvolumelistener.so bind
     mount none /system/lib64/soundfx/libvolumelistener.so /vendor/lib64/soundfx/libvolumelistener.so bind
 
-on boot
-    chown system system /sys/devices/platform/goodix_ts.0/gesture/enable
-    chmod 0660 /sys/devices/platform/goodix_ts.0/gesture/enable
-
 service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
     class hal
     user system

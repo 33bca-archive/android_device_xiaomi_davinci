@@ -16,9 +16,6 @@
 /system/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_davinci	u:object_r:hal_pa_fod_xiaomi_davinci_exec:s0
 /system/bin/hw/vendor\.pa\.camera\.motor@1.0-service\.xiaomi_davinci 				u:object_r:hal_pa_camera_motor_xiaomi_davinci_exec:s0
 
-# Input nodes
-/sys/devices/platform/goodix_ts\.0/gesture/enable	u:object_r:sysfs_touchpanel:s0
-
 # Modules
 /system/lib/modules/wlan\.ko    u:object_r:vendor_file:s0
 
