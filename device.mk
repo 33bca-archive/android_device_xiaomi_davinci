@@ -72,6 +72,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/vendor.pa.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.pa.biometrics.fingerprint.inscreen.xml
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
+PRODUCT_BOOT_JARS += \
+    qcom.fmradio
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \

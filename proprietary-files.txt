@@ -43,6 +43,14 @@ lib/libdpmtcm.so
 # Display postprocessing
 lib64/vendor.display.color@1.0.so
 
+# FM
+lib64/fm_helium.so
+lib64/libfm-hci.so|65439aa928178812f014898f6033d212b6ee1590
+-lib64/vendor.qti.hardware.fm@1.0.so
+lib/fm_helium.so
+lib/libfm-hci.so|321eb8f8427b62df93336c5b8f35370c3395ac77
+-lib/vendor.qti.hardware.fm@1.0.so
+
 # IMS
 -app/uceShimService/uceShimService.apk
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml

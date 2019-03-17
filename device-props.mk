@@ -33,6 +33,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
     ro.vendor.display.sensortype=2
 
+# FM
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fm.transmitter=false
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
