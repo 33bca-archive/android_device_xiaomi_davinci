@@ -55,8 +55,7 @@ PRODUCT_PACKAGES += \
 
 # Camera Motor
 PRODUCT_PACKAGES += \
-    vendor.pa.camera.motor@1.0 \
-    vendor.pa.camera.motor@1.0-service.xiaomi_davinci
+    DavinciPopupCamera
 
 # Display
 PRODUCT_PACKAGES += \

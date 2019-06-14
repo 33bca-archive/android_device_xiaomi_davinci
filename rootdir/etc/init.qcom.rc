@@ -5,14 +5,5 @@ on post-fs
     mount none /system/lib/soundfx/libvolumelistener.so /vendor/lib/soundfx/libvolumelistener.so bind
     mount none /system/lib64/soundfx/libvolumelistener.so /vendor/lib64/soundfx/libvolumelistener.so bind
 
-service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
-    class hal
-    user system
-    group system
-    disabled
-
-on property:init.svc.vendor.motor=running
-    stop vendor.motor
-
 on property:sys.boot_completed=1
     start vendor.msm_irqbalance
