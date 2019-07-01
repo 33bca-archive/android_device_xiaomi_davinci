@@ -25,6 +25,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <manifest version="1.0" type="framework">
     <hal format="hidl">
+        <name>vendor.pa.biometrics.fingerprint.inscreen</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFingerprintInscreen</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.pa.camera.motor</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
