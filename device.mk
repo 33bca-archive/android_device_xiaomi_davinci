@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
 
 # Custom init script
 PRODUCT_PACKAGES += \
+    init.mi_thermald.rc \
     init.qcom.rc
 
 # Camera Motor
