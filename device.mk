@@ -54,6 +54,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc
 
+# Camera Motor
+PRODUCT_PACKAGES += \
+    vendor.pa.camera.motor@1.0 \
+    vendor.pa.camera.motor@1.0-service.xiaomi_davinci
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
