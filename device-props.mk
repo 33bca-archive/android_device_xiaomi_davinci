@@ -44,8 +44,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # IOP properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.iop.enable_uxe=0 \
-    vendor.iop.enable_prefetch_ofr=0
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=true
 
 # Netflix custom property
 PRODUCT_PROPERTY_OVERRIDES += \
