@@ -1,3 +1,7 @@
+
+# Allow init to chown / chmod to pseudo files
+allow init sysfs_touchpanel:file setattr;
+
 # Allow init to mount offmode charging daemon
 allow init rootfs:file mounton;
 
