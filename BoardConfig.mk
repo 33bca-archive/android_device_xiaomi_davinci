@@ -148,6 +148,10 @@ BOARD_VNDK_VERSION := current
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := libinit_davinci
+TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
+
 # Wifi
 DISABLE_EAP_PROXY := true
 
