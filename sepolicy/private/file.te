@@ -5,5 +5,5 @@ type motor_device, dev_type;
 type persist_file, file_type;
 type sysfs_graphics, sysfs_type, fs_type;
 type sysfs_led, sysfs_type, fs_type;
-type sysfs_tp_dispparam, sysfs_type, fs_type;
+type sysfs_tp_fodhbm, sysfs_type, fs_type;
 type sysfs_tp_fodstatus, sysfs_type, fs_type;

@@ -16,4 +16,4 @@ allow hal_pa_fod_xiaomi_davinci hal_display_hwservice:hwservice_manager find;
 # Allow hal_pa_fod_xiaomi_davinci to hal_fingerprint_hwservice
 allow hal_pa_fod_xiaomi_davinci hal_fingerprint_hwservice:hwservice_manager find;
 
-allow hal_pa_fod_xiaomi_davinci { sysfs_tp_dispparam sysfs_tp_fodstatus }:file rw_file_perms;
+allow hal_pa_fod_xiaomi_davinci { sysfs_tp_fodhbm sysfs_tp_fodstatus }:file rw_file_perms;

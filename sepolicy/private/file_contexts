@@ -13,7 +13,7 @@
 /dev/drv8846_dev	u:object_r:motor_device:s0
 
 # Fingerprint
-/sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param	u:object_r:sysfs_tp_dispparam:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display/fod_hbm					u:object_r:sysfs_tp_fodhbm:s0
 /sys/devices/virtual/touch/tp_dev/fod_status						u:object_r:sysfs_tp_fodstatus:s0
 
 # HALs
