@@ -13,6 +13,7 @@
 /dev/drv8846_dev         u:object_r:camera_motor_device:s0
 
 # HALs
+/system/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_davinci				u:object_r:hal_light_davinci_exec:s0
 /system/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_davinci	u:object_r:hal_pa_fod_xiaomi_davinci_exec:s0
 /system/bin/hw/vendor\.pa\.camera\.motor@1.0-service\.xiaomi_davinci 				u:object_r:hal_pa_camera_motor_xiaomi_davinci_exec:s0
 
