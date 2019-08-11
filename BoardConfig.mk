@@ -54,6 +54,8 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 endif
 
+TARGET_KERNEL_CLANG_COMPILE := true
+
 NEED_KERNEL_MODULE_SYSTEM := true
 
 # Platform
