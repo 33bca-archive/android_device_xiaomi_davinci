@@ -16,5 +16,5 @@ type hal_light_davinci_exec, exec_type, file_type;
 init_daemon_domain(hal_light_davinci)
 
 allow hal_light_davinci sysfs_graphics:dir search;
-allow hal_light_davinci sysfs_graphics:file { getattr open write };
+allow hal_light_davinci sysfs_graphics:file rw_file_perms;
 allow hal_light_davinci sysfs_leds:dir search;
