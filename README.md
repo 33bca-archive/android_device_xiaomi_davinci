@@ -3,18 +3,17 @@
   Device configuration for Xiaomi Xiaomi Mi 9T / Redmi K20
  =========================================
  
-  The Xiaomi Mi 9T / Redmi K20 (codenamed _"davinci"_) is a mid-end smartphone from Xiaomi.
+  The Xiaomi Mi 9T / Redmi K20 (codenamed _"davinci"_) is a mid-range smartphone from Xiaomi.
  
   ## Device specifications
  
   Basic   | Spec Sheet
  -------:|:-------------------------
- SoC     | Qualcomm SDM730 Snapdragon 730 (8 nm)
- CPU     | Octa-core (2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver)
- GPU     | AAdreno 618
- Memory  | 64/128 GB, 6 GB RAM or 256 GB, 8 GB RAM
+ SoC     | Qualcomm SM7150 Snapdragon 730 (8 nm)
+ CPU     | Octa-core (2x Kryo 470 Gold @ 2.2 GHz and 6x Kryo 470 Silver @ 1.8 GHz)
+ GPU     | Adreno 618
+ Storage and Memory  | 64/128 GB, 6 GB RAM or 256 GB, 8 GB RAM
  Shipped Android Version | Android 9.0 (Pie); MIUI 10
- Storage | 64/128/256 GB
  Battery | Non-removable Li-Ion 4000 mAh battery
  Dimensions | 156.7 x 74.3 x 8.8 mm
  Display | 6.39 inches, 100.2 cm2 (~86.1% screen-to-body ratio)
