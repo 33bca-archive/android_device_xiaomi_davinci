@@ -40,7 +40,7 @@ CameraMotor::CameraMotor() {
 }
 
 Return<void> CameraMotor::onConnect(const hidl_string& cameraId) {
-    if (cameraId == CAMERA_ID_FRONT) {
+    if (cameraId == CAMERA_ID_FRONT && !(is_poped)) {
         LOG(INFO) << "Camera is uprising.";
         is_poped = 1;
         uint8_t arg = UP;
@@ -51,7 +51,7 @@ Return<void> CameraMotor::onConnect(const hidl_string& cameraId) {
 }
 
 Return<void> CameraMotor::onDisconnect(const hidl_string& cameraId) {
-    if (cameraId == CAMERA_ID_FRONT) {
+    if (cameraId == CAMERA_ID_FRONT && is_poped) {
         LOG(INFO) << "Camera is descending";
         is_poped = 0;
         uint8_t arg = DOWN;
