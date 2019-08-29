@@ -485,6 +485,9 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
     <!-- Flag specifying whether pocked mode is available on device -->
     <bool name="config_pocketModeSupported">false</bool>
 
