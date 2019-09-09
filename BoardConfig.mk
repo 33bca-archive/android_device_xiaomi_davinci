@@ -52,7 +52,6 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := davinci_defconfig
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 endif
 
