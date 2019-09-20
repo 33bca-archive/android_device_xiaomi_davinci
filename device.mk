@@ -104,7 +104,9 @@ PRODUCT_PACKAGES += \
     Tag
 
 # Perf
--include vendor/qcom/common/qti-vendor.mk
+-include vendor/qcom/common/av/qti-av.mk
+-include vendor/qcom/common/bt/qti-bt.mk
+-include vendor/qcom/common/perf/qti-perf.mk
 
 # Power
 PRODUCT_PACKAGES += \
