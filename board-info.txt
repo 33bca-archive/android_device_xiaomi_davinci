@@ -1,2 +1,2 @@
-require version-vendor=1564690333,28
-require version-miui=10.3.11.0
+require version-vendor=1569349214,29
+require version-miui=9.9.25
