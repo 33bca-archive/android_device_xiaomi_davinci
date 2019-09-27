@@ -60,9 +60,12 @@ void vendor_load_properties()
     fin.close();
 
     if (buf.find("GLOBAL") != std::string::npos) {
-        //Already set by build env
+        property_override("ro.product.model", "Mi 9T");
+        property_override("ro.product.system.model", "Mi 9T");
+        property_override("ro.product.vendor.model", "Mi 9T");
     } else {
         property_override("ro.product.model", "Redmi K20");
+        property_override("ro.product.system.model", "Redmi K20");
         property_override("ro.product.vendor.model", "Redmi K20");
     }
 }
