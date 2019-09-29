@@ -103,7 +103,7 @@ BOARD_HAVE_QCOM_FM := true
 GENERIC_TAP_TO_WAKE_NODE := "/dev/input/event2"
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Lights
