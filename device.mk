@@ -110,7 +110,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom
+    android.hardware.power@1.2-service
 
 # QCOM
 PRODUCT_COPY_FILES += \

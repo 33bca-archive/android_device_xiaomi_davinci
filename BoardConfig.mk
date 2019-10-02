@@ -100,7 +100,7 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 BOARD_HAVE_QCOM_FM := true
 
 # Gestures
-GENERIC_TAP_TO_WAKE_NODE := "/dev/input/event2"
+TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
@@ -133,6 +133,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Power
 TARGET_POWER_BINDMOUNT_VENDOR := true
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
