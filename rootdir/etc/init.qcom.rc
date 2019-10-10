@@ -13,3 +13,6 @@ service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 
 on property:init.svc.vendor.motor=running
     stop vendor.motor
+
+on property:sys.boot_completed=1
+    start vendor.msm_irqbalance
