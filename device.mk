@@ -120,3 +120,10 @@ PRODUCT_COPY_FILES += \
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl
+
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
