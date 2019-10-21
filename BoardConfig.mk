@@ -19,6 +19,8 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/davinci
 
+TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
