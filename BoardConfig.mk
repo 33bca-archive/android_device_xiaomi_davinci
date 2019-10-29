@@ -170,5 +170,8 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 # Wifi
 DISABLE_EAP_PROXY := true
 
+# HACKS
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/davinci/BoardConfigVendor.mk
