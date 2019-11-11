@@ -63,9 +63,13 @@ void vendor_load_properties()
         property_override("ro.product.model", "Mi 9T");
         property_override("ro.product.system.model", "Mi 9T");
         property_override("ro.product.vendor.model", "Mi 9T");
+        property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+        property_override("ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
     } else {
         property_override("ro.product.model", "Redmi K20");
         property_override("ro.product.system.model", "Redmi K20");
         property_override("ro.product.vendor.model", "Redmi K20");
+        property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+        property_override("ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
     }
 }
